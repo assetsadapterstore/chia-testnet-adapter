@@ -19,6 +19,7 @@ func NewWalletManager() *WalletManager {
 	wm.WalletManager = chia.NewWalletManager()
 	wm.Config = chia.NewConfig(Symbol)
 	wm.Log = log.NewOWLogger(wm.Symbol())
+	
 	return &wm
 }
 
