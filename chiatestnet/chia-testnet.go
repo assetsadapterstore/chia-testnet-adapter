@@ -14,6 +14,7 @@ type WalletManager struct {
 	*chia.WalletManager
 }
 
+
 func NewWalletManager() *WalletManager {
 	wm := WalletManager{}
 	wm.WalletManager = chia.NewWalletManager()
